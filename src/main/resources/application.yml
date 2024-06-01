@@ -2,5 +2,7 @@ spring:
   data:
     mongodb:
       uri: mongodb+srv://${User_DB}:${Passward_DB}@webfluxcuster.74d4vqd.mongodb.net/${DB_Name}?retryWrites=true&w=majority&appName=WebFluxCuster
-
+      auto-index-creation: true
+  application:
+    name: webflux-course
 
